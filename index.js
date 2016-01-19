@@ -27,6 +27,8 @@ module.exports = {
     require("babel-plugin-transform-object-rest-spread"),
     require("babel-plugin-transform-react-display-name"),
     require("babel-plugin-transform-react-jsx"),
-    require("babel-plugin-transform-strict-mode")
+    require("babel-plugin-transform-strict-mode"),
+
+    require("babel-plugin-transform-runtime")
   ]
 };
