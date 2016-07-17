@@ -1,5 +1,14 @@
 module.exports = {
   plugins: [
+
+    require("babel-plugin-syntax-trailing-function-commas"),
+    require("babel-plugin-transform-class-properties"), // N.B. class-properties must come before classes
+    require("babel-plugin-transform-export-extensions"),
+    require("babel-plugin-transform-object-rest-spread"),
+    require("babel-plugin-transform-react-display-name"),
+    require("babel-plugin-transform-react-jsx"),
+    require("babel-plugin-transform-strict-mode"),
+
     require("babel-plugin-transform-es2015-template-literals"),
     require("babel-plugin-transform-es2015-literals"),
     require("babel-plugin-transform-es2015-function-name"),
@@ -20,14 +29,6 @@ module.exports = {
     require("babel-plugin-transform-es2015-typeof-symbol"),
     require("babel-plugin-transform-es2015-modules-commonjs"),
     require("babel-plugin-transform-regenerator"),
-
-    require("babel-plugin-syntax-trailing-function-commas"),
-    require("babel-plugin-transform-class-properties"),
-    require("babel-plugin-transform-export-extensions"),
-    require("babel-plugin-transform-object-rest-spread"),
-    require("babel-plugin-transform-react-display-name"),
-    require("babel-plugin-transform-react-jsx"),
-    require("babel-plugin-transform-strict-mode"),
 
     require("babel-plugin-transform-runtime")
   ]
