@@ -30,6 +30,7 @@ module.exports = {
     require("babel-plugin-transform-es2015-modules-commonjs"),
     require("babel-plugin-transform-regenerator"),
 
-    require("babel-plugin-transform-runtime")
+    require("babel-plugin-transform-runtime"),
+    require("babel-plugin-undeclared-variables-check")
   ]
 };
