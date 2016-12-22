@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-forbeslindesay",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "ESLint default settings to match my personal preferences",
   "main": "index.js",
   "scripts": {
