@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-
     require("babel-plugin-syntax-trailing-function-commas"),
     require("babel-plugin-transform-class-properties"), // N.B. class-properties must come before classes
     require("babel-plugin-transform-export-extensions"),
@@ -31,6 +30,6 @@ module.exports = {
     require("babel-plugin-transform-regenerator"),
 
     require("babel-plugin-transform-runtime"),
-    require("babel-plugin-undeclared-variables-check")
+    require("babel-plugin-undeclared-variables-check-with-config")
   ]
 };
